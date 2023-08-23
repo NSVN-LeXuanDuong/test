@@ -1,0 +1,646 @@
+{
+    "dateRange": {
+        "startDate": "2000/01/01",
+        "endDate": "2000/01/31"
+    },
+    "displayFormat": 0,
+    "initScreen": 1,
+    "mode": 0,
+    "lstEmployee": [],
+    "formatCodes": [
+        "001"
+    ],
+    "objectShare": null,
+    "showLock": true,
+    "closureId": 1,
+    "initFromScreenOther": false,
+    "changeFormat": false,
+    "screenDto": {
+        "yearHolidaySettingDto": null,
+        "substVacationDto": null,
+        "compensLeaveComDto": null,
+        "com60HVacationDto": null,
+        "dateRange": {
+            "startDate": "2000/01/01",
+            "endDate": "2000/01/31"
+        },
+        "periodInfo": {
+            "lstRange": [],
+            "targetRange": {
+                "startDate": "2000/01/01",
+                "endDate": "2000/01/31"
+            },
+            "yearMonth": 200001,
+            "closureId": 1,
+            "lstClosureCache": [
+                {
+                    "closureId": 1,
+                    "closureDate": {
+                        "closeDay": 1,
+                        "lastDayOfMonth": 1,
+                        "lastDayOfMonthValue": true
+                    },
+                    "yearMonth": 202306,
+                    "period": {
+                        "startDate": "2023/06/01",
+                        "endDate": "2023/06/30"
+                    }
+                }
+            ],
+            "lstRangeCls": [
+                {
+                    "startDate": "2023/06/01",
+                    "endDate": "2023/06/30",
+                    "closureId": 1
+                }
+            ],
+            "employeePerson": "f82ee858-3bb3-425e-aed9-484fd763c1cd"
+        },
+        "lstEmployee": [
+            {
+                "id": "f82ee858-3bb3-425e-aed9-484fd763c1cd",
+                "code": "99999999",
+                "businessName": "管理　部長",
+                "workplaceName": "",
+                "workplaceId": "",
+                "depName": null,
+                "isSupport": false,
+                "loginUser": false
+            }
+        ],
+        "lstFixedHeader": [
+            {
+                "headerText": "ID",
+                "attendanceName": "ID",
+                "key": "id",
+                "dataType": "String",
+                "width": "30px",
+                "color": "#6A6A6A",
+                "hidden": true,
+                "ntsControl": "Label",
+                "ntsType": null,
+                "onChange": null,
+                "changedByOther": true,
+                "changedByYou": true,
+                "group": [],
+                "constraint": null,
+                "headerCssClass": "center-align",
+                "inputProcess": null,
+                "grant": false,
+                "columnCssClass": "",
+                "displayNumber": null,
+                "sheetNo": ""
+            },
+            {
+                "headerText": "状<br/>態",
+                "attendanceName": "状<br/>態",
+                "key": "state",
+                "dataType": "String",
+                "width": "30px",
+                "color": "#6A6A6A",
+                "hidden": false,
+                "ntsControl": "FlexImage",
+                "ntsType": null,
+                "onChange": null,
+                "changedByOther": true,
+                "changedByYou": true,
+                "group": [],
+                "constraint": null,
+                "headerCssClass": "center-align",
+                "inputProcess": null,
+                "grant": false,
+                "columnCssClass": "",
+                "displayNumber": null,
+                "sheetNo": ""
+            },
+            {
+                "headerText": "ｴﾗｰ/ｱﾗｰﾑ",
+                "attendanceName": "ｴﾗｰ/ｱﾗｰﾑ",
+                "key": "error",
+                "dataType": "String",
+                "width": "60px",
+                "color": "#6A6A6A",
+                "hidden": false,
+                "ntsControl": "Label",
+                "ntsType": null,
+                "onChange": null,
+                "changedByOther": true,
+                "changedByYou": true,
+                "group": [],
+                "constraint": null,
+                "headerCssClass": "center-align",
+                "inputProcess": null,
+                "grant": false,
+                "columnCssClass": "",
+                "displayNumber": null,
+                "sheetNo": ""
+            },
+            {
+                "headerText": "日付",
+                "attendanceName": "日付",
+                "key": "date",
+                "dataType": "String",
+                "width": "70px",
+                "color": "#6A6A6A",
+                "hidden": false,
+                "ntsControl": "Label",
+                "ntsType": null,
+                "onChange": null,
+                "changedByOther": true,
+                "changedByYou": true,
+                "group": [],
+                "constraint": null,
+                "headerCssClass": "center-align",
+                "inputProcess": null,
+                "grant": false,
+                "columnCssClass": "",
+                "displayNumber": null,
+                "sheetNo": ""
+            },
+            {
+                "headerText": "本人",
+                "attendanceName": "本人",
+                "key": "sign",
+                "dataType": "boolean",
+                "width": "35px",
+                "color": "#6A6A6A",
+                "hidden": false,
+                "ntsControl": "Checkbox",
+                "ntsType": null,
+                "onChange": null,
+                "changedByOther": true,
+                "changedByYou": true,
+                "group": [],
+                "constraint": null,
+                "headerCssClass": "center-align",
+                "inputProcess": null,
+                "grant": false,
+                "columnCssClass": "",
+                "displayNumber": null,
+                "sheetNo": ""
+            },
+            {
+                "headerText": "社員★コード",
+                "attendanceName": "社員★コード",
+                "key": "employeeCode",
+                "dataType": "String",
+                "width": "87px",
+                "color": "#6A6A6A",
+                "hidden": false,
+                "ntsControl": "Label",
+                "ntsType": null,
+                "onChange": null,
+                "changedByOther": true,
+                "changedByYou": true,
+                "group": [],
+                "constraint": null,
+                "headerCssClass": "center-align",
+                "inputProcess": null,
+                "grant": false,
+                "columnCssClass": "",
+                "displayNumber": null,
+                "sheetNo": ""
+            },
+            {
+                "headerText": "社員★名",
+                "attendanceName": "社員★名",
+                "key": "employeeName",
+                "dataType": "String",
+                "width": "162px",
+                "color": "#6A6A6A",
+                "hidden": false,
+                "ntsControl": "Label",
+                "ntsType": null,
+                "onChange": null,
+                "changedByOther": true,
+                "changedByYou": true,
+                "group": [],
+                "constraint": null,
+                "headerCssClass": "center-align",
+                "inputProcess": null,
+                "grant": false,
+                "columnCssClass": "",
+                "displayNumber": null,
+                "sheetNo": ""
+            },
+            {
+                "headerText": "",
+                "attendanceName": "",
+                "key": "picture-person",
+                "dataType": "String",
+                "width": "35px",
+                "color": "",
+                "hidden": false,
+                "ntsControl": "Image",
+                "ntsType": null,
+                "onChange": null,
+                "changedByOther": true,
+                "changedByYou": true,
+                "group": [],
+                "constraint": null,
+                "headerCssClass": "center-align",
+                "inputProcess": null,
+                "grant": false,
+                "columnCssClass": "#6A6A6A",
+                "displayNumber": null,
+                "sheetNo": ""
+            },
+            {
+                "headerText": "承認",
+                "attendanceName": "承認",
+                "key": "approval",
+                "dataType": "boolean",
+                "width": "35px",
+                "color": "#6A6A6A",
+                "hidden": false,
+                "ntsControl": "Checkbox",
+                "ntsType": null,
+                "onChange": null,
+                "changedByOther": true,
+                "changedByYou": true,
+                "group": [],
+                "constraint": null,
+                "headerCssClass": "center-align",
+                "inputProcess": null,
+                "grant": false,
+                "columnCssClass": "",
+                "displayNumber": null,
+                "sheetNo": ""
+            }
+        ],
+        "lstControlDisplayItem": {
+            "lstSheet": [],
+            "lstHeader": [],
+            "lstAttendanceItem": null,
+            "formatCode": null,
+            "columnSettings": [],
+            "settingUnit": false,
+            "comboItemCalc": null,
+            "comboItemDoWork": null,
+            "comboItemReason": null,
+            "comboItemCalcCompact": null,
+            "comboTimeLimit": null,
+            "comboNursingLicenseCls": null,
+            "comboFuriCls": null,
+            "itemIds": [],
+            "mapDPAttendance": {},
+            "itemInputName": {},
+            "lstWidthHeader": null
+        },
+        "mapCellState": {},
+        "mapCellStateforLockProcess": {},
+        "lstCellState": [],
+        "lstCellStateCalc": [],
+        "lstData": null,
+        "authorityDto": [
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 39,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 37,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 51,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 23,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 38,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 24,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 1,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 9,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 32,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 2,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 22,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 36,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 5,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 12,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 11,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 25,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 26,
+                "availability": true
+            },
+            {
+                "roleID": "3b4388bd-89c3-495b-824a-bff0c084cb21",
+                "functionNo": 8,
+                "availability": true
+            }
+        ],
+        "dailyPerformanceCodeDto": null,
+        "employmentCode": "",
+        "closureId": 1,
+        "comment": null,
+        "typeBussiness": null,
+        "itemValues": [],
+        "showPrincipal": true,
+        "showSupervisor": true,
+        "data": {},
+        "identityProcessDto": {
+            "useConfirmByYourself": true,
+            "useIdentityOfMonth": true,
+            "yourSelfConfirmError": 0,
+            "manageAtr": 0,
+            "allowProxyConfirm": false,
+            "reqPrevCompStep2": false,
+            "reqPrevCompStep3": false
+        },
+        "monthResult": null,
+        "showQuestionSPR": null,
+        "changeSPR": {
+            "change31": false,
+            "change34": false,
+            "rowId31": null,
+            "rowId34": null,
+            "showPrincipal": false,
+            "showSupervisor": false,
+            "messageIdError": null
+        },
+        "textStyles": [],
+        "autBussCode": [],
+        "domainOld": null,
+        "domainOldForLog": null,
+        "showTighProcess": false,
+        "indentityMonthResult": {
+            "show26": false,
+            "enableButton": false,
+            "hideAll": true
+        },
+        "showErrorDialog": false,
+        "errors": [],
+        "errorInfomation": 0,
+        "lstHideControl": [],
+        "lstCellDisByLock": [],
+        "lockDisableFlex": false,
+        "rangeLock": null,
+        "employeeIds": [
+            "f82ee858-3bb3-425e-aed9-484fd763c1cd"
+        ],
+        "changeEmployeeIds": [
+            "f82ee858-3bb3-425e-aed9-484fd763c1cd"
+        ],
+        "listWorkplaceInfo": [],
+        "identityProcessDtoOpt": {
+            "useConfirmByYourself": true,
+            "useIdentityOfMonth": true,
+            "yourSelfConfirmError": 0,
+            "manageAtr": 0,
+            "allowProxyConfirm": false,
+            "reqPrevCompStep2": false,
+            "reqPrevCompStep3": false
+        },
+        "approvalUseSettingDtoOpt": {
+            "useDayApproverConfirm": true,
+            "useMonthApproverConfirm": true,
+            "supervisorConfirmErrorAtr": 0,
+            "dayBossChkUnapproved": 1,
+            "cancelAllAppAtr": 0
+        },
+        "datePeriodResult": {
+            "startDate": "2000/01/01",
+            "endDate": "2000/01/31"
+        },
+        "disItem": {
+            "formatCode": [],
+            "settingUnit": false,
+            "lstFormat": [],
+            "lstSheet": [],
+            "lstAtdItemUnique": [],
+            "lstBusinessTypeCode": [],
+            "bussiness": 0,
+            "autBussCode": [],
+            "errors": []
+        },
+        "approvalConfirmCache": null,
+        "stateParam": {
+            "period": {
+                "startDate": "2000/01/01",
+                "endDate": "2000/01/31"
+            },
+            "employeeIds": [
+                "f82ee858-3bb3-425e-aed9-484fd763c1cd"
+            ],
+            "displayMode": 0,
+            "lstEmpSelect": [
+                "f82ee858-3bb3-425e-aed9-484fd763c1cd"
+            ],
+            "displayItem": {
+                "lstSheet": [],
+                "lstHeader": [],
+                "lstAttendanceItem": null,
+                "formatCode": null,
+                "columnSettings": [],
+                "settingUnit": false,
+                "comboItemCalc": null,
+                "comboItemDoWork": null,
+                "comboItemReason": null,
+                "comboItemCalcCompact": null,
+                "comboTimeLimit": null,
+                "comboNursingLicenseCls": null,
+                "comboFuriCls": null,
+                "itemIds": [],
+                "mapDPAttendance": {},
+                "itemInputName": {},
+                "lstWidthHeader": null
+            },
+            "dateInfo": {
+                "lstRange": [],
+                "targetRange": {
+                    "startDate": "2000/01/01",
+                    "endDate": "2000/01/31"
+                },
+                "yearMonth": 200001,
+                "closureId": 1,
+                "lstClosureCache": [
+                    {
+                        "closureId": 1,
+                        "closureDate": {
+                            "closeDay": 1,
+                            "lastDayOfMonth": 1,
+                            "lastDayOfMonthValue": true
+                        },
+                        "yearMonth": 202306,
+                        "period": {
+                            "startDate": "2023/06/01",
+                            "endDate": "2023/06/30"
+                        }
+                    }
+                ],
+                "lstRangeCls": [
+                    {
+                        "startDate": "2023/06/01",
+                        "endDate": "2023/06/30",
+                        "closureId": 1
+                    }
+                ],
+                "employeePerson": "f82ee858-3bb3-425e-aed9-484fd763c1cd"
+            },
+            "transferDesScreen": false,
+            "lstWrkplaceId": [],
+            "lstEmpsSupport": [],
+            "lstErrorCodeSelected": []
+        },
+        "confirmEmployment": true,
+        "showWorkLoad": true,
+        "dataSessionDto": {
+            "inputGetDataOlds": null,
+            "itemIdRCs": null,
+            "dataSource": null,
+            "closureId": 1,
+            "resultReturn": null,
+            "approvalConfirmCache": null,
+            "lstSidDateErrorCalc": [],
+            "domainMonthOpt": null,
+            "errorAllCalc": false,
+            "dpStateParam": null,
+            "paramCommonAsync": null,
+            "workinfoVer": null
+        },
+        "lstDataAfterAddNotError": [],
+        "dperrorDto": [],
+        "dpcorrectionMenuDto": null
+    },
+    "dpStateParam": {
+        "period": {
+            "startDate": "2023/06/01",
+            "endDate": "2023/06/30"
+        },
+        "employeeIds": [
+            "575c4e20-464b-49eb-b8af-572323e35751",
+            "2c80bf3a-ed2d-4300-baac-5a34ca2f0762",
+            "38871dfc-4a46-49c6-902f-b2be71a4350b",
+            "549fc431-68f0-4f16-879c-b3b50ff69094",
+            "22ddfaf6-8429-4216-9579-36707c65afdd",
+            "f719c5f9-5f1a-4048-87d1-dbcc7f8e5fe8",
+            "7344a299-97e3-429a-aa70-e4c4a6d52325",
+            "1e9dc015-7b25-4223-b45f-8043d6c3e1d2",
+            "f82ee858-3bb3-425e-aed9-484fd763c1cd"
+        ],
+        "displayMode": 0,
+        "lstEmpSelect": [
+            "575c4e20-464b-49eb-b8af-572323e35751",
+            "2c80bf3a-ed2d-4300-baac-5a34ca2f0762",
+            "38871dfc-4a46-49c6-902f-b2be71a4350b",
+            "549fc431-68f0-4f16-879c-b3b50ff69094",
+            "22ddfaf6-8429-4216-9579-36707c65afdd",
+            "f719c5f9-5f1a-4048-87d1-dbcc7f8e5fe8",
+            "7344a299-97e3-429a-aa70-e4c4a6d52325",
+            "1e9dc015-7b25-4223-b45f-8043d6c3e1d2",
+            "f82ee858-3bb3-425e-aed9-484fd763c1cd"
+        ],
+        "displayItem": {
+            "lstSheet": [],
+            "lstHeader": [],
+            "lstAttendanceItem": null,
+            "formatCode": null,
+            "columnSettings": [],
+            "settingUnit": false,
+            "comboItemCalc": null,
+            "comboItemDoWork": null,
+            "comboItemReason": null,
+            "comboItemCalcCompact": null,
+            "comboTimeLimit": null,
+            "comboNursingLicenseCls": null,
+            "comboFuriCls": null,
+            "itemIds": [],
+            "mapDPAttendance": {},
+            "itemInputName": {},
+            "lstWidthHeader": null
+        },
+        "dateInfo": {
+            "lstRange": [],
+            "targetRange": {
+                "startDate": "2023/06/01",
+                "endDate": "2023/06/30"
+            },
+            "yearMonth": 202306,
+            "closureId": 1,
+            "lstClosureCache": [
+                {
+                    "closureId": 1,
+                    "closureDate": {
+                        "closeDay": 1,
+                        "lastDayOfMonth": 1,
+                        "lastDayOfMonthValue": true
+                    },
+                    "yearMonth": 202306,
+                    "period": {
+                        "startDate": "2023/06/01",
+                        "endDate": "2023/06/30"
+                    }
+                }
+            ],
+            "lstRangeCls": [
+                {
+                    "startDate": "2023/06/01",
+                    "endDate": "2023/06/30",
+                    "closureId": 1
+                }
+            ],
+            "employeePerson": "f82ee858-3bb3-425e-aed9-484fd763c1cd"
+        },
+        "transferDesScreen": false,
+        "lstWrkplaceId": [
+            "c99ad1c7-49f1-4960-a333-a7dce2f45e4d"
+        ],
+        "lstEmpsSupport": [],
+        "lstErrorCodeSelected": []
+    }
+}
