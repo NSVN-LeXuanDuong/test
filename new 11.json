@@ -1,7 +1,7 @@
 {
     "dateRange": {
         "startDate": "2000/01/01",
-        "endDate": "2000/01/31"
+		"endDate": "2000/01/31"
     },
     "displayFormat": 0,
     "initScreen": 1,
@@ -21,16 +21,16 @@
         "compensLeaveComDto": null,
         "com60HVacationDto": null,
         "dateRange": {
-            "startDate": "2000/01/01",
-            "endDate": "2000/01/31"
+            "startDate": "2023/06/01",
+            "endDate": "2023/06/30"
         },
         "periodInfo": {
             "lstRange": [],
             "targetRange": {
                 "startDate": "2000/01/01",
-                "endDate": "2000/01/31"
+				"endDate": "2000/01/31"
             },
-            "yearMonth": 200001,
+            "yearMonth": 202306,
             "closureId": 1,
             "lstClosureCache": [
                 {
@@ -54,15 +54,15 @@
                     "closureId": 1
                 }
             ],
-            "employeePerson": "f82ee858-3bb3-425e-aed9-484fd763c1cd"
+            "employeePerson": "440babca-cc0e-4e06-824a-5eaf041c7089"
         },
         "lstEmployee": [
             {
-                "id": "f82ee858-3bb3-425e-aed9-484fd763c1cd",
-                "code": "99999999",
-                "businessName": "管理　部長",
-                "workplaceName": "",
-                "workplaceId": "",
+                "id": "440babca-cc0e-4e06-824a-5eaf041c7089",
+                "code": "10000021",
+                "businessName": "新　担当２",
+                "workplaceName": "管理本部",
+                "workplaceId": "c99ad1c7-49f1-4960-a333-a7dce2f45e4d",
                 "depName": null,
                 "isSupport": false,
                 "loginUser": false
@@ -385,7 +385,7 @@
             }
         ],
         "dailyPerformanceCodeDto": null,
-        "employmentCode": "",
+        "employmentCode": "01",
         "closureId": 1,
         "comment": null,
         "typeBussiness": null,
@@ -431,10 +431,10 @@
         "lockDisableFlex": false,
         "rangeLock": null,
         "employeeIds": [
-            "f82ee858-3bb3-425e-aed9-484fd763c1cd"
+            "440babca-cc0e-4e06-824a-5eaf041c7089"
         ],
         "changeEmployeeIds": [
-            "f82ee858-3bb3-425e-aed9-484fd763c1cd"
+            "440babca-cc0e-4e06-824a-5eaf041c7089"
         ],
         "listWorkplaceInfo": [],
         "identityProcessDtoOpt": {
@@ -455,7 +455,7 @@
         },
         "datePeriodResult": {
             "startDate": "2000/01/01",
-            "endDate": "2000/01/31"
+				"endDate": "2000/01/31"
         },
         "disItem": {
             "formatCode": [],
@@ -472,14 +472,14 @@
         "stateParam": {
             "period": {
                 "startDate": "2000/01/01",
-                "endDate": "2000/01/31"
+				"endDate": "2000/01/31"
             },
             "employeeIds": [
-                "f82ee858-3bb3-425e-aed9-484fd763c1cd"
+                "440babca-cc0e-4e06-824a-5eaf041c7089"
             ],
             "displayMode": 0,
             "lstEmpSelect": [
-                "f82ee858-3bb3-425e-aed9-484fd763c1cd"
+                "440babca-cc0e-4e06-824a-5eaf041c7089"
             ],
             "displayItem": {
                 "lstSheet": [],
@@ -504,9 +504,9 @@
                 "lstRange": [],
                 "targetRange": {
                     "startDate": "2000/01/01",
-                    "endDate": "2000/01/31"
+				"endDate": "2000/01/31"
                 },
-                "yearMonth": 200001,
+                "yearMonth": 202306,
                 "closureId": 1,
                 "lstClosureCache": [
                     {
@@ -530,10 +530,12 @@
                         "closureId": 1
                     }
                 ],
-                "employeePerson": "f82ee858-3bb3-425e-aed9-484fd763c1cd"
+                "employeePerson": "440babca-cc0e-4e06-824a-5eaf041c7089"
             },
             "transferDesScreen": false,
-            "lstWrkplaceId": [],
+            "lstWrkplaceId": [
+                "c99ad1c7-49f1-4960-a333-a7dce2f45e4d"
+            ],
             "lstEmpsSupport": [],
             "lstErrorCodeSelected": []
         },
@@ -542,17 +544,17 @@
         "dataSessionDto": {
             "inputGetDataOlds": null,
             "itemIdRCs": null,
-            "dataSource": null,
+			"dataSource": null,
             "closureId": 1,
             "resultReturn": null,
             "approvalConfirmCache": null,
-            "lstSidDateErrorCalc": [],
+			"lstSidDateErrorCalc": [],
             "domainMonthOpt": null,
             "errorAllCalc": false,
             "dpStateParam": null,
-            "paramCommonAsync": null,
+			"paramCommonAsync": null,
             "workinfoVer": null
-        },
+			},
         "lstDataAfterAddNotError": [],
         "dperrorDto": [],
         "dpcorrectionMenuDto": null
